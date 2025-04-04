@@ -112,36 +112,6 @@ Review & merge
 
 # *HTML - is used to create the structure of a webpage.
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Health catalyst </title>
-</head>
-<body>
-    <header>
-        <h1>HC_DOC</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Weekly Report</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Progress</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <h2>Intro</h2>
-            <p>This is the Kundana Full Stack Intern Mentro Sanjay</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Interns Page</p>
-    </footer>
-</body>
-</html>
-
 # *Semantic Elements - **clearly define the meaning of the content for both browsers and developers.** 
 1)Document Structure Elements- <header>,<nav>,<main>,<section>,<article>,<aside>,<footer>
 2)Text & Content Elements - <h1> to <h6> ,<p>,<blockquote>,<cite>,<figcaption>,<figure>
@@ -151,68 +121,8 @@ Review & merge
 
 
 # *Forms -**HTML forms are used to collect user input. They contain form elements like text fields, checkboxes, radio buttons, submit buttons, etc.**
-Ex:-
-!DOCTYPE html>
-<html>
-  <body>
-    <h2>Health Catalyst Attendance Form</h2>
-    <form action="#" method="post">
-        <label for="role">Select Role:</label>
-        <select id="role" name="role" required>
-            <option value="Mentor">Mentor</option>
-            <option value="Intern">Intern</option>
-        </select>
-
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-
-        <label for="domain">Select Domain:</label>
-        <select id="domain" name="domain" required>
-            <option value="Full Stack">Full Stack</option>
-            <option value="Testing">Testing</option>
-            <option value="DevOps">DevOps</option>
-        </select>
-
-        <label for="review">Review Selections:</label>
-        <textarea id="review" name="review" rows="3" placeholder="Enter any comments..." required></textarea>
-
-        <label for="date">Select Date:</label>
-        <input type="date" id="date" name="date" required>
-
-        <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
 
 # *Tables - **HTML tables are used to display data in rows and columns format.Used To organize and present structured information like schedules, lists, or reports.**
-EX:-
-<table border="1">
-  <thead>
-    <tr>
-      <th>Role</th>
-      <th>Name</th>
-      <th>Domain</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Mentor</td>
-      <td>Sanjay</td>
-      <td>Full Stack</td>
-    </tr>
-    <tr>
-      <td>Intern</td>
-      <td>Kundana</td>
-      <td>Full Stack</td>
-    </tr>
-    <tr>
-      <td>Intern</td>
-      <td>Shashi</td>
-      <td>Full Stack</td>
-    </tr>
-  </tbody>
-</table>
-
 
 
 ### **JavaScript - Variables,datatypes,functions,DOM manipulations and events
