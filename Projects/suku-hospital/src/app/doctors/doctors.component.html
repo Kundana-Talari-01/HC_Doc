@@ -1,0 +1,18 @@
+<div class="doctors-container">
+  <h2>Our Doctors</h2>
+
+  <div class="doctors-grid">
+    <div class="doctor-card" *ngFor="let doctor of doctors">
+      <img [src]="doctor.image" alt="Doctor Photo" />
+      <h3>{{ doctor.name }}</h3>
+      <p><strong>Speciality:</strong> {{ doctor.speciality }}</p>
+      <p><strong>Qualification:</strong> {{ doctor.qualification }}</p>
+      <p><strong>Experience:</strong> {{ doctor.experience }}</p>
+      <button routerLink="/book-appointment">Book Appointment</button>
+    </div>
+  </div>
+</div>
+
+
+
+  

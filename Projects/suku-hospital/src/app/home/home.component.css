@@ -1,0 +1,54 @@
+.home-banner {
+    text-align: center;
+    padding: 30px;
+    background-color: #f0f8ff;
+  }
+  
+  .home-banner img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .specialities-section, .doctors-section, .appointment-section, .emergency-section {
+    margin: 40px 20px;
+    text-align: center;
+  }
+  
+  .speciality-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: #e0f7fa;
+    padding: 20px;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    background-color: #b2ebf2;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

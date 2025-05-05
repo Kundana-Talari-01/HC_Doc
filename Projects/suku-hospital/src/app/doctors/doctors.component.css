@@ -1,0 +1,49 @@
+.doctors-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .search-input {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .doctors-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .doctor-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  }
+  
+  .doctor-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .doctor-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .doctor-card button:hover {
+    background-color: #0056b3;
+  }
+  
