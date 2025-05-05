@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hospital Contact Us</title>
+        <link rel="Stylesheet" href="ContactUs.css">
+    </head>
+    <body>
+        <h2>Contact Us - Hospital Helpdesk</h2>
+        <form id="hospitalForm">
+            <label>Patient Name:
+            <input type = "text" id = "name">
+            <div class="erroe-message" id="nameError"></div></label>
+            <label>Email:
+                <input type="email" id="email">
+                <div class="error-message" id="emailError"></div>
+              </label>
+          
+              <label>Phone Number:
+                <input type="tel" id="phone" placeholder="+91 6300717635">
+                <div class="error-message" id="phoneError"></div>
+              </label>
+          
+              <label>Department:
+                <select id="department">
+                  <option value="">-- Select Department --</option>
+                  <option value="Cardiology">Cardiology</option>
+                  <option value="Neurology">Neurology</option>
+                  <option value="Orthopedics">Orthopedics</option>
+                  <option value="Pediatrics">Pediatrics</option>
+                  <option value="General Medicine">General Medicine</option>
+                </select>
+                <div class="error-message" id="departmentError"></div>
+            </label>
+        
+            <label>Preferred Appointment Date:
+              <input type="date" id="appointmentDate">
+            </label>
+        
+            <label>Message / Symptoms:
+              <textarea id="message" rows="4" placeholder="Describe your concern..."></textarea>
+              <div class="error-message" id="messageError"></div>
+            </label>
+        
+            <label>Preferred Contact Method:
+              <select id="contactMethod">
+                <option value="Email">Email</option>
+                <option value="Phone">Phone</option>
+                <option value="WhatsApp">WhatsApp</option>
+              </select>
+            </label>
+            <div class="checkbox">
+                <input type="checkbox" id="terms">
+                <label for="terms">I agree to the Terms & Conditions</label>
+              </div>
+              <div class="error-message" id="termsError"></div>
+          
+              <button type="submit">Submit</button>
+            </form>
+            <script src="ContactUs.js"></script>
+       
+    </body>
+</html> 
