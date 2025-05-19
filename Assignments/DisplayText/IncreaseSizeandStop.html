@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IncreaseSizeandStop</title>
+  <style>
+    body {
+      text-align: center;
+      margin-top: 100px;
+      font-family: Arial, sans-serif;
+    }
+    #kundanaText {
+      display: none;
+      font-size: 20px;
+      font-weight: bold;
+      transition: font-size 0.5s ease;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <button onclick="startGrowing()">Start</button>
+  <button onclick="stopGrowing()">Stop</button>
+  <p id="kundanaText">Kundana</p>
+
+  <script>
+    let fontSize = 20;
+    let intervalId = null;
+
+    function startGrowing() {
+      const text = document.getElementById("kundanaText");
+      text.style.display = "block";
+      
+      
+      if (intervalId !== null) return;
+
+      intervalId = setInterval(() => {
+        fontSize += 5;
+        text.style.fontSize = fontSize + "px";
+      }, 1000);
+    }
+
+    function stopGrowing() {
+      clearInterval(intervalId);
+      intervalId = null;
+    }
+  </script>
+
+</body>
+</html>
